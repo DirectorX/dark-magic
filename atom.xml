@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 	<title>dark-magic</title>
 	<link href="https://directorx.github.io/dark-magic/atom.xml" rel="self" type="application/atom+xml"/>
-  <link href="https://directorx.github.io/dark-magic/"/>
+  <link href="https://directorx.github.io/dark-magic"/>
 	<generator uri="https://www.getzola.org/">Zola</generator>
 	<updated>2019-05-15T00:00:00+00:00</updated>
 	<id>https://directorx.github.io/dark-magic/atom.xml</id>
