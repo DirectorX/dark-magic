@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-	<title>p0w3r</title>
-	<link href="https://p0w3r.gitlab.io/atom.xml" rel="self" type="application/atom+xml"/>
-  <link href="https://p0w3r.gitlab.io"/>
+	<title>dark-magic</title>
+	<link href="https://directorx.github.io/dark-magic/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://directorx.github.io/dark-magic/"/>
 	<generator uri="https://www.getzola.org/">Zola</generator>
 	<updated>2019-05-15T00:00:00+00:00</updated>
-	<id>https://p0w3r.gitlab.io/atom.xml</id>
+	<id>https://directorx.github.io/dark-magic/atom.xml</id>
 	<entry xml:lang="en">
 		<title>Example content 1</title>
 		<published>2019-05-15T00:00:00+00:00</published>
 		<updated>2019-05-15T00:00:00+00:00</updated>
-		<link href="https://p0w3r.gitlab.io/blog/a/" type="text/html"/>
-		<id>https://p0w3r.gitlab.io/blog/a/</id>
+		<link href="https://directorx.github.io/dark-magic/blog/a/" type="text/html"/>
+		<id>https://directorx.github.io/dark-magic/blog/a/</id>
 		<content type="html">&lt;h2 id=&quot;inline-html-elements&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#inline-html-elements&quot; aria-label=&quot;Anchor link for: inline-html-elements&quot;&gt;🔗&lt;&#x2F;a&gt;
 Inline HTML elements&lt;&#x2F;h2&gt;
 &lt;p&gt;HTML defines a long list of available inline tags, a complete list of which can be found on the &lt;a href=&quot;https:&#x2F;&#x2F;developer.mozilla.org&#x2F;en-US&#x2F;docs&#x2F;Web&#x2F;HTML&#x2F;Element&quot;&gt;Mozilla Developer Network&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
