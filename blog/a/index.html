@@ -69,12 +69,10 @@ Inline HTML elements</h2>
 <span id="continue-reading"></span><h2 id="footnotes"><a class="zola-anchor" href="#footnotes" aria-label="Anchor link for: footnotes">🔗</a>
 Footnotes</h2>
 <p>Footnotes are supported as part of the Markdown syntax. Here's one in action. Clicking this number<sup class="footnote-reference"><a href="#fn-sample_footnote">1</a></sup> will lead you to a footnote. The syntax looks like:</p>
-<pre style="background-color:#272822;">
-<code class="language-md" data-lang="md"><span style="color:#f8f8f2;">Clicking this number[^fn-sample_footnote]
+<pre data-lang="md" style="background-color:#272822;color:#f8f8f2;" class="language-md "><code class="language-md" data-lang="md"><span>Clicking this number[^fn-sample_footnote]
 </span></code></pre>
 <p>Each footnote needs the <code>^fn-</code> prefix and a unique ID to be referenced for the footnoted content. The syntax for that list looks something like this:</p>
-<pre style="background-color:#272822;">
-<code class="language-md" data-lang="md"><span style="color:#f8f8f2;">[^fn-sample_footnote]: Handy! Now click the return link to go back.
+<pre data-lang="md" style="background-color:#272822;color:#f8f8f2;" class="language-md "><code class="language-md" data-lang="md"><span>[^fn-sample_footnote]: Handy! Now click the return link to go back.
 </span></code></pre>
 <p>You can place the footnoted content wherever you like. Markdown parsers should properly place it at the bottom of the post.</p>
 <h2 id="heading"><a class="zola-anchor" href="#heading" aria-label="Anchor link for: heading">🔗</a>
@@ -83,26 +81,24 @@ Heading</h2>
 <h3 id="code"><a class="zola-anchor" href="#code" aria-label="Anchor link for: code">🔗</a>
 Code</h3>
 <p>Inline code is available with the <code>&lt;code&gt;</code> element. Snippets of multiple lines of code are supported through Pygments. Longer lines will automatically scroll horizontally when needed.</p>
-<pre style="background-color:#272822;">
-<code class="language-js" data-lang="js"><span style="color:#75715e;">// Example can be run directly in your JavaScript console
-
-// Create a function that takes two arguments and returns the sum of those arguments
-</span><span style="font-style:italic;color:#66d9ef;">var </span><span style="color:#f8f8f2;">adder </span><span style="color:#f92672;">= new </span><span style="color:#f8f8f2;">Function(</span><span style="color:#e6db74;">&quot;a&quot;</span><span style="color:#f8f8f2;">, </span><span style="color:#e6db74;">&quot;b&quot;</span><span style="color:#f8f8f2;">, </span><span style="color:#e6db74;">&quot;return a + b&quot;</span><span style="color:#f8f8f2;">);
-
+<pre data-lang="js" style="background-color:#272822;color:#f8f8f2;" class="language-js "><code class="language-js" data-lang="js"><span style="color:#75715e;">// Example can be run directly in your JavaScript console
+</span><span>
+</span><span style="color:#75715e;">// Create a function that takes two arguments and returns the sum of those arguments
+</span><span style="font-style:italic;color:#66d9ef;">var </span><span>adder </span><span style="color:#f92672;">= new </span><span>Function(</span><span style="color:#e6db74;">&quot;a&quot;</span><span>, </span><span style="color:#e6db74;">&quot;b&quot;</span><span>, </span><span style="color:#e6db74;">&quot;return a + b&quot;</span><span>);
+</span><span>
 </span><span style="color:#75715e;">// Call the function
-</span><span style="color:#a6e22e;">adder</span><span style="color:#f8f8f2;">(</span><span style="color:#ae81ff;">2</span><span style="color:#f8f8f2;">, </span><span style="color:#ae81ff;">6</span><span style="color:#f8f8f2;">);
+</span><span style="color:#a6e22e;">adder</span><span>(</span><span style="color:#ae81ff;">2</span><span>, </span><span style="color:#ae81ff;">6</span><span>);
 </span><span style="color:#75715e;">// &gt; 8
 </span></code></pre>
 <p>You may also optionally show code snippets with line numbers. Add <code>linenos</code> to the Pygments tags.</p>
-<pre style="background-color:#272822;">
-<code class="language-js linenos" data-lang="js linenos"><span style="color:#f8f8f2;">// Example can be run directly in your JavaScript console
-
-// Create a function that takes two arguments and returns the sum of those arguments
-var adder = new Function(&quot;a&quot;, &quot;b&quot;, &quot;return a + b&quot;);
-
-// Call the function
-adder(2, 6);
-// &gt; 8
+<pre data-lang="js linenos" style="background-color:#272822;color:#f8f8f2;" class="language-js linenos "><code class="language-js linenos" data-lang="js linenos"><span>// Example can be run directly in your JavaScript console
+</span><span>
+</span><span>// Create a function that takes two arguments and returns the sum of those arguments
+</span><span>var adder = new Function(&quot;a&quot;, &quot;b&quot;, &quot;return a + b&quot;);
+</span><span>
+</span><span>// Call the function
+</span><span>adder(2, 6);
+</span><span>// &gt; 8
 </span></code></pre>
 <p>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
 <h3 id="gists-via-github-pages"><a class="zola-anchor" href="#gists-via-github-pages" aria-label="Anchor link for: gists-via-github-pages">🔗</a>
