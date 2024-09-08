@@ -1,18 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-	<title>dark-magic</title>
-	<link href="https://directorx.github.io/dark-magic/atom.xml" rel="self" type="application/atom+xml"/>
-  <link href="https://directorx.github.io/dark-magic"/>
-	<generator uri="https://www.getzola.org/">Zola</generator>
-	<updated>2019-05-15T00:00:00+00:00</updated>
-	<id>https://directorx.github.io/dark-magic/atom.xml</id>
-	<entry xml:lang="en">
-		<title>Example content 1</title>
-		<published>2019-05-15T00:00:00+00:00</published>
-		<updated>2019-05-15T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://directorx.github.io/dark-magic/blog/a/" type="text/html"/>
-		<id>https://directorx.github.io/dark-magic/blog/a/</id>
-		<content type="html">&lt;h2 id=&quot;inline-html-elements&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#inline-html-elements&quot; aria-label=&quot;Anchor link for: inline-html-elements&quot;&gt;🔗&lt;&#x2F;a&gt;
+    <title>dark-magic</title>
+    <link rel="self" type="application/atom+xml" href="https://directorx.github.io/dark-magic/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://directorx.github.io/dark-magic"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2019-05-15T00:00:00+00:00</updated>
+    <id>https://directorx.github.io/dark-magic/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Example content 1</title>
+        <published>2019-05-15T00:00:00+00:00</published>
+        <updated>2019-05-15T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://directorx.github.io/dark-magic/blog/a/"/>
+        <id>https://directorx.github.io/dark-magic/blog/a/</id>
+        
+        <summary type="html">&lt;h2 id=&quot;inline-html-elements&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#inline-html-elements&quot; aria-label=&quot;Anchor link for: inline-html-elements&quot;&gt;🔗&lt;&#x2F;a&gt;
 Inline HTML elements&lt;&#x2F;h2&gt;
 &lt;p&gt;HTML defines a long list of available inline tags, a complete list of which can be found on the &lt;a href=&quot;https:&#x2F;&#x2F;developer.mozilla.org&#x2F;en-US&#x2F;docs&#x2F;Web&#x2F;HTML&#x2F;Element&quot;&gt;Mozilla Developer Network&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 &lt;ul&gt;
@@ -24,120 +34,7 @@ Inline HTML elements&lt;&#x2F;h2&gt;
 &lt;li&gt;Superscript &lt;sup&gt;text&lt;&#x2F;sup&gt; uses &lt;code&gt;&amp;lt;sup&amp;gt;&lt;&#x2F;code&gt; and subscript &lt;sub&gt;text&lt;&#x2F;sub&gt; uses &lt;code&gt;&amp;lt;sub&amp;gt;&lt;&#x2F;code&gt;.&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;p&gt;Most of these elements are styled by browsers with few modifications on our part.&lt;&#x2F;p&gt;
-&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h2 id=&quot;footnotes&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#footnotes&quot; aria-label=&quot;Anchor link for: footnotes&quot;&gt;🔗&lt;&#x2F;a&gt;
-Footnotes&lt;&#x2F;h2&gt;
-&lt;p&gt;Footnotes are supported as part of the Markdown syntax. Here&#x27;s one in action. Clicking this number&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#fn-sample_footnote&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt; will lead you to a footnote. The syntax looks like:&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;md&quot; style=&quot;background-color:#272822;color:#f8f8f2;&quot; class=&quot;language-md &quot;&gt;&lt;code class=&quot;language-md&quot; data-lang=&quot;md&quot;&gt;&lt;span&gt;Clicking this number[^fn-sample_footnote]
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;p&gt;Each footnote needs the &lt;code&gt;^fn-&lt;&#x2F;code&gt; prefix and a unique ID to be referenced for the footnoted content. The syntax for that list looks something like this:&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;md&quot; style=&quot;background-color:#272822;color:#f8f8f2;&quot; class=&quot;language-md &quot;&gt;&lt;code class=&quot;language-md&quot; data-lang=&quot;md&quot;&gt;&lt;span&gt;[^fn-sample_footnote]: Handy! Now click the return link to go back.
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;p&gt;You can place the footnoted content wherever you like. Markdown parsers should properly place it at the bottom of the post.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;heading&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#heading&quot; aria-label=&quot;Anchor link for: heading&quot;&gt;🔗&lt;&#x2F;a&gt;
-Heading&lt;&#x2F;h2&gt;
-&lt;p&gt;Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;code&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#code&quot; aria-label=&quot;Anchor link for: code&quot;&gt;🔗&lt;&#x2F;a&gt;
-Code&lt;&#x2F;h3&gt;
-&lt;p&gt;Inline code is available with the &lt;code&gt;&amp;lt;code&amp;gt;&lt;&#x2F;code&gt; element. Snippets of multiple lines of code are supported through Pygments. Longer lines will automatically scroll horizontally when needed.&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;js&quot; style=&quot;background-color:#272822;color:#f8f8f2;&quot; class=&quot;language-js &quot;&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span style=&quot;color:#75715e;&quot;&gt;&#x2F;&#x2F; Example can be run directly in your JavaScript console
-&lt;&#x2F;span&gt;&lt;span&gt;
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#75715e;&quot;&gt;&#x2F;&#x2F; Create a function that takes two arguments and returns the sum of those arguments
-&lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#66d9ef;&quot;&gt;var &lt;&#x2F;span&gt;&lt;span&gt;adder &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f92672;&quot;&gt;= new &lt;&#x2F;span&gt;&lt;span&gt;Function(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#e6db74;&quot;&gt;&amp;quot;a&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#e6db74;&quot;&gt;&amp;quot;b&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#e6db74;&quot;&gt;&amp;quot;return a + b&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;);
-&lt;&#x2F;span&gt;&lt;span&gt;
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#75715e;&quot;&gt;&#x2F;&#x2F; Call the function
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a6e22e;&quot;&gt;adder&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ae81ff;&quot;&gt;2&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ae81ff;&quot;&gt;6&lt;&#x2F;span&gt;&lt;span&gt;);
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#75715e;&quot;&gt;&#x2F;&#x2F; &amp;gt; 8
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;p&gt;You may also optionally show code snippets with line numbers. Add &lt;code&gt;linenos&lt;&#x2F;code&gt; to the Pygments tags.&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;js linenos&quot; style=&quot;background-color:#272822;color:#f8f8f2;&quot; class=&quot;language-js linenos &quot;&gt;&lt;code class=&quot;language-js linenos&quot; data-lang=&quot;js linenos&quot;&gt;&lt;span&gt;&#x2F;&#x2F; Example can be run directly in your JavaScript console
-&lt;&#x2F;span&gt;&lt;span&gt;
-&lt;&#x2F;span&gt;&lt;span&gt;&#x2F;&#x2F; Create a function that takes two arguments and returns the sum of those arguments
-&lt;&#x2F;span&gt;&lt;span&gt;var adder = new Function(&amp;quot;a&amp;quot;, &amp;quot;b&amp;quot;, &amp;quot;return a + b&amp;quot;);
-&lt;&#x2F;span&gt;&lt;span&gt;
-&lt;&#x2F;span&gt;&lt;span&gt;&#x2F;&#x2F; Call the function
-&lt;&#x2F;span&gt;&lt;span&gt;adder(2, 6);
-&lt;&#x2F;span&gt;&lt;span&gt;&#x2F;&#x2F; &amp;gt; 8
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;p&gt;Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;gists-via-github-pages&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#gists-via-github-pages&quot; aria-label=&quot;Anchor link for: gists-via-github-pages&quot;&gt;🔗&lt;&#x2F;a&gt;
-Gists via GitHub Pages&lt;&#x2F;h3&gt;
-&lt;p&gt;Vestibulum id ligula porta felis euismod semper. Nullam quis risus eget urna mollis ornare vel eu leo. Donec sed odio dui.&lt;&#x2F;p&gt;
-&lt;div &gt;
-    &lt;script src=&quot;https:&amp;#x2F;&amp;#x2F;gist.github.com&amp;#x2F;shalzz&amp;#x2F;281559a80af7adb5ab71320f5a802f94.js&quot;&gt;&lt;&#x2F;script&gt;
-&lt;&#x2F;div&gt;
-&lt;p&gt;Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Vestibulum id ligula porta felis euismod semper.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;lists&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#lists&quot; aria-label=&quot;Anchor link for: lists&quot;&gt;🔗&lt;&#x2F;a&gt;
-Lists&lt;&#x2F;h3&gt;
-&lt;p&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.&lt;&#x2F;p&gt;
-&lt;ul&gt;
-&lt;li&gt;Praesent commodo cursus magna, vel scelerisque nisl consectetur et.&lt;&#x2F;li&gt;
-&lt;li&gt;Donec id elit non mi porta gravida at eget metus.&lt;&#x2F;li&gt;
-&lt;li&gt;Nulla vitae elit libero, a pharetra augue.&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
-&lt;p&gt;Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.&lt;&#x2F;p&gt;
-&lt;ol&gt;
-&lt;li&gt;Vestibulum id ligula porta felis euismod semper.&lt;&#x2F;li&gt;
-&lt;li&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;&#x2F;li&gt;
-&lt;li&gt;Maecenas sed diam eget risus varius blandit sit amet non magna.&lt;&#x2F;li&gt;
-&lt;&#x2F;ol&gt;
-&lt;p&gt;Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.&lt;&#x2F;p&gt;
-&lt;dl&gt;
-  &lt;dt&gt;HyperText Markup Language (HTML)&lt;&#x2F;dt&gt;
-  &lt;dd&gt;The language used to describe and define the content of a Web page&lt;&#x2F;dd&gt;
-&lt;dt&gt;Cascading Style Sheets (CSS)&lt;&#x2F;dt&gt;
-  &lt;dd&gt;Used to describe the appearance of Web content&lt;&#x2F;dd&gt;
-&lt;dt&gt;JavaScript (JS)&lt;&#x2F;dt&gt;
-  &lt;dd&gt;The programming language used to build advanced Web sites and applications&lt;&#x2F;dd&gt;
-&lt;&#x2F;dl&gt;
-&lt;p&gt;Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;images&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#images&quot; aria-label=&quot;Anchor link for: images&quot;&gt;🔗&lt;&#x2F;a&gt;
-Images&lt;&#x2F;h3&gt;
-&lt;p&gt;Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;http:&#x2F;&#x2F;placehold.it&#x2F;800x400&quot; alt=&quot;placeholder&quot; title=&quot;Large example image&quot; &#x2F;&gt;
-&lt;img src=&quot;http:&#x2F;&#x2F;placehold.it&#x2F;400x200&quot; alt=&quot;placeholder&quot; title=&quot;Medium example image&quot; &#x2F;&gt;
-&lt;img src=&quot;http:&#x2F;&#x2F;placehold.it&#x2F;200x200&quot; alt=&quot;placeholder&quot; title=&quot;Small example image&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;tables&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#tables&quot; aria-label=&quot;Anchor link for: tables&quot;&gt;🔗&lt;&#x2F;a&gt;
-Tables&lt;&#x2F;h3&gt;
-&lt;p&gt;Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;&#x2F;p&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Name&lt;&#x2F;th&gt;
-      &lt;th&gt;Upvotes&lt;&#x2F;th&gt;
-      &lt;th&gt;Downvotes&lt;&#x2F;th&gt;
-    &lt;&#x2F;tr&gt;
-  &lt;&#x2F;thead&gt;
-  &lt;tfoot&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Totals&lt;&#x2F;td&gt;
-      &lt;td&gt;21&lt;&#x2F;td&gt;
-      &lt;td&gt;23&lt;&#x2F;td&gt;
-    &lt;&#x2F;tr&gt;
-  &lt;&#x2F;tfoot&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Alice&lt;&#x2F;td&gt;
-      &lt;td&gt;10&lt;&#x2F;td&gt;
-      &lt;td&gt;11&lt;&#x2F;td&gt;
-    &lt;&#x2F;tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Bob&lt;&#x2F;td&gt;
-      &lt;td&gt;4&lt;&#x2F;td&gt;
-      &lt;td&gt;3&lt;&#x2F;td&gt;
-    &lt;&#x2F;tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Charlie&lt;&#x2F;td&gt;
-      &lt;td&gt;7&lt;&#x2F;td&gt;
-      &lt;td&gt;9&lt;&#x2F;td&gt;
-    &lt;&#x2F;tr&gt;
-  &lt;&#x2F;tbody&gt;
-&lt;&#x2F;table&gt;
-&lt;p&gt;Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.&lt;&#x2F;p&gt;
-&lt;hr &#x2F;&gt;
-&lt;p&gt;Want to see something else added? &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;DirectorX&#x2F;dark-magic&#x2F;issues&quot;&gt;Open an issue.&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-&lt;div class=&quot;footnote-definition&quot; id=&quot;fn-sample_footnote&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;1&lt;&#x2F;sup&gt;
-&lt;p&gt;Handy! Now click the return link to go back.&lt;&#x2F;p&gt;
-&lt;&#x2F;div&gt;
-</content>
-	</entry>
+</summary>
+        
+    </entry>
 </feed>
