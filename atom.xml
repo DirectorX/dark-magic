@@ -33,8 +33,7 @@ Inline HTML elements&lt;&#x2F;h2&gt;
 &lt;li&gt;&lt;del&gt;Deleted&lt;&#x2F;del&gt; text should use &lt;code&gt;&amp;lt;del&amp;gt;&lt;&#x2F;code&gt; and &lt;ins&gt;inserted&lt;&#x2F;ins&gt; text should use &lt;code&gt;&amp;lt;ins&amp;gt;&lt;&#x2F;code&gt;.&lt;&#x2F;li&gt;
 &lt;li&gt;Superscript &lt;sup&gt;text&lt;&#x2F;sup&gt; uses &lt;code&gt;&amp;lt;sup&amp;gt;&lt;&#x2F;code&gt; and subscript &lt;sub&gt;text&lt;&#x2F;sub&gt; uses &lt;code&gt;&amp;lt;sub&amp;gt;&lt;&#x2F;code&gt;.&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;p&gt;Most of these elements are styled by browsers with few modifications on our part.&lt;&#x2F;p&gt;
-</summary>
+&lt;p&gt;Most of these elements are styled by browsers with few modifications on our part.&lt;&#x2F;p&gt;</summary>
         
     </entry>
 </feed>
