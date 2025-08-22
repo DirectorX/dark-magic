@@ -6,7 +6,7 @@ min_version = "0.1.0"
 demo = "https://directorx.github.io/dark-magic/"
 
 [extra]
-butler_nav_bar = [
+nav_bar = [
     {url = "$BASE_URL/", name = "home"},
     {url = "$BASE_URL/blog", name = "blog"},
     {url = "$BASE_URL/links", name = "links"},
